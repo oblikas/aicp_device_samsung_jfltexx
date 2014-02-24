@@ -1,7 +1,7 @@
 $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
 # jfltexx overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/aicp/overlay/jfltexx
+PRODUCT_PACKAGE_OVERLAYS += vendor/aicp/overlay/jf-common
 
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/aicp/configs/gsm.mk)
